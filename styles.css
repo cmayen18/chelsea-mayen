@@ -5,6 +5,36 @@ body {
     background-color: #f8f8f8;
 }
 
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-section,
+.about-section,
+.projects-section {
+    width: 100%;
+    max-width: 800px; /* Adjust the max-width based on your design preference */
+    margin: 20px 0;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-info img {
+    max-width: 150px; /* Adjust the max-width for the profile picture */
+    border-radius: 50%; /* Make the profile picture round */
+    margin-right: 20px;
+}
+
+.text-info {
+    flex: 1;
+}
+
+
 header {
     background-color: #333;
     color: #fff;
