@@ -87,4 +87,31 @@ ul {
     margin: 20px 0;
 }
 
+/* Add this style rule to your existing styles.css or create a new one */
+
+.buttons-section {
+    position: fixed;
+    top: 30px; /* Adjust the distance from the top as needed */
+    right: 30px; /* Adjust the distance from the right as needed */
+    display: flex;
+}
+
+.button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px; /* Adjust the margin between buttons as needed */
+}
+
+.button a {
+    text-decoration: none;
+    color: #1C3976; /* Adjust the color as needed */
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
+
 /* Add any additional styling as needed */
