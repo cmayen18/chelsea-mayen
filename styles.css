@@ -39,4 +39,10 @@ ul {
     margin-top: 0;
 }
 
+.section-divider {
+    border: none;
+    border-top: 3px dotted #ddd;
+    margin: 20px 0;
+}
+
 /* Add any additional styling as needed */

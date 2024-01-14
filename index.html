@@ -10,45 +10,49 @@
 
 <body>
     <header>
-        <h1>Your Name</h1>
-        <h2><a href="your_linkedin_url">LinkedIn</a> | Email: your_email@gmail.com</h2>
+        <img src="path/to/your/banner-image.jpg" alt="Banner Image">
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <h3>Education:</h3>
-        <ul>
-            <li>Masters Degree: Your Masters Degree</li>
-            <li>Undergrad Degree: Your Undergrad Degree</li>
-        </ul>
-        <p>
-            Write a brief about me paragraph here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...
-        </p>
-    </section>
+    <div class="main-content">
+        <section class="profile-section">
+            <div class="profile-info">
+                <img src="path/to/your/profile-picture.jpg" alt="Profile Picture">
+                <div class="text-info">
+                    <h1>Your Name</h1>
+                    <h2><a href="your_linkedin_url">LinkedIn</a></h2>
+                    <p>Masters Degree: Your Masters Degree</p>
+                    <p>Undergrad Degree: Your Undergrad Degree</p>
+                </div>
+            </div>
+        </section>
 
-    <section id="projects">
-        <h2>Data Engineering Projects</h2>
+        <hr class="section-divider">
 
-        <div class="project-box" id="big-data">
+        <section class="about-section">
+            <h2>About Me</h2>
+            <p>
+                Write a brief about me paragraph here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...
+            </p>
+        </section>
+
+        <hr class="section-divider">
+
+        <section class="projects-section">
+            <h2>Data Engineering Projects</h2>
+
             <h3>Big Data Tech Stack</h3>
             <p>Description of your Big Data project.</p>
-        </div>
 
-        <div class="project-box" id="aws-cloud">
             <h3>AWS Cloud</h3>
             <p>Description of your AWS Cloud project.</p>
-        </div>
 
-        <div class="project-box" id="azure-cloud">
             <h3>Azure Cloud</h3>
             <p>Description of your Azure Cloud project.</p>
-        </div>
 
-        <div class="project-box" id="gcp-cloud">
             <h3>GCP Cloud</h3>
             <p>Description of your GCP Cloud project.</p>
-        </div>
-    </section>
+        </section>
+    </div>
 </body>
 
 </html>
