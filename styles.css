@@ -40,6 +40,15 @@ header {
     color: #fff;
     text-align: center;
     padding: 1em;
+    width: 100%;
+    max-width: 2000px; /* Adjust this value based on the new width of your banner image */
+    margin: 0 auto;
+}
+
+.banner-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 h1, h2, h3 {
